@@ -1,0 +1,9 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="User" table="users">
+        <id name="id" type="int" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="login" column="login" type="string"/>
+        <property name="password" column="password" type="string"/>
+    </class>
+</hibernate-mapping>
