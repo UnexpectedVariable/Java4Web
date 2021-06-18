@@ -1,0 +1,3 @@
+Finish error handling:
+-Empty field when trying to register
+-Nickname already taken
